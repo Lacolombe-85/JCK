@@ -1,0 +1,62 @@
+/* Big tablets to smaller laptop screens*/
+@media only screen and (max-width:1200px) {
+	html,
+	body {
+		font-size:14px;
+	}
+
+	.about-para {
+		margin-bottom:20px;
+	}
+
+	.section-heading,
+	.cosmetiques-heading,
+	.administrative-heading,
+	.divertissement-heading,
+	.contact-heading {
+		margin-top:90px;
+	}
+
+}
+
+/* Smaller tablets to larger tablet screens*/
+@media only screen and (max-width:1023px) {
+	html,
+	body {
+		font-size:12px;
+	}
+
+	.row {
+		padding:0 2%;
+	}
+
+	.about-box {
+		margin-top:60px;
+	}
+	.divertissement-box div:last-child,
+	.divertissement-box div:first-child {
+		padding:0;
+		padding-left:5%;
+	}
+
+	.laptop-image {
+		padding-right:5%;
+	}
+
+	.divertissement-box {
+		width:100%;
+	}
+
+	.divertissement-heading {
+		margin-bottom:25px;
+	}
+
+	footer {
+		padding:30px;
+	}
+
+	footer p {
+		margin-top:20px;
+		line-height:1.3;
+	}
+}
